@@ -82,6 +82,8 @@ class Game {
                   camera.position.x = displayWidth/2;
                   camera.position.y = cars[index-1].y
                   if( cars[index - 1].isTouching(obstacles)){
+                                                s.play();
+
                     yVel -= 0.9;
 
                   }
