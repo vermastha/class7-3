@@ -41,6 +41,8 @@ function setup(){
   game.start();
   for(i=0;i<5;i++)
   {
+   // console.log(height)
+  //  console.log(displayHeight)
     w=random(200,950);
     h=random(-height*4,height-300);
   f1 = createSprite(w,h);
